@@ -1,0 +1,28 @@
+"/":
+  controller: Pages
+  action: default
+
+"/liste_des_utilisateurs":
+  controller: Users
+  action: default
+
+"/ajouter_un_utilisateur":
+  controller: Users
+  action: add
+
+
+"/enregistrer_un_utilisateur":
+  controller: Users
+  action: save
+
+"/connexion":
+  controller: Users
+  action: login
+
+"/deconnexion":
+  controller: Users
+  action: logout
+
+"/mot_de_passe_oublie":
+  controller: Users
+  action: forgetPassword
